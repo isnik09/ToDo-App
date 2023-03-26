@@ -1,9 +1,6 @@
 # Books List App (MVVM Pattern)
 
-Cross platform app using flutter and dart featuring book titles with pictures fetched from mockup data provided via
-
- https://raw.githubusercontent.com/bvaughn/infinite-list-reflow-examples/master/books.json
- 
+Cross platform ToDO app using flutter and dart with Hive Local Database 
  
 # Run Locally
 
