@@ -1,4 +1,4 @@
-# Books List App (MVVM Pattern)
+# To Do app (with pastel colors)
 
 Cross platform ToDO app using flutter and dart with Hive Local Database 
  
