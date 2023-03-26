@@ -6,5 +6,5 @@ class AppColors {
   Color red = const Color.fromARGB(255, 255, 135, 135);
   Color green = const Color.fromARGB(255, 188, 226, 158);
   Color button = const Color.fromARGB(255, 249, 249, 249);
-  Color yellow = const Color.fromARGB(255, 253, 251, 225);
+  Color yellow = Color.fromARGB(255, 255, 227, 251);
 }
