@@ -6,7 +6,7 @@ import 'package:todo_app/data/database.dart';
 import 'package:todo_app/utils/colors.dart';
 
 class HomeScreen extends StatefulWidget {
-  HomeScreen({super.key});
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -74,11 +74,11 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: AppColors().background,
       floatingActionButton: FloatingActionButton(
         onPressed: createNewTask,
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
       appBar: AppBar(
         backgroundColor: AppColors().background,
-        title: Center(child: Text("Todo")),
+        title: const Center(child: Text("Todo")),
       ),
       body: ListView.builder(
         itemCount: db.todoList.length,

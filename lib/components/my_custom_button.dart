@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class CustomButton extends StatelessWidget {
   final String buttonName;
   VoidCallback onPressed;
   Color buttonColor;
-  Color? textColor = Color.fromARGB(255, 0, 0, 0);
+  // ignore: prefer_const_constructors
+  Color? textColor = Colors.black;
   CustomButton(
       {super.key,
       required this.buttonName,

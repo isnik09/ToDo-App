@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:todo_app/components/my_custom_button.dart';
 import 'package:todo_app/utils/colors.dart';
 
+// ignore: must_be_immutable
 class DialogBox extends StatelessWidget {
+  // ignore: prefer_typing_uninitialized_variables
   final textController;
 
   VoidCallback onSave;
@@ -17,7 +19,7 @@ class DialogBox extends StatelessWidget {
   Widget build(BuildContext context) {
     return AlertDialog(
       backgroundColor: AppColors().yellow,
-      content: Container(
+      content: SizedBox(
         height: 200,
         width: double.infinity,
         child: Column(
