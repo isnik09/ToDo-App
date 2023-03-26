@@ -1,16 +1,42 @@
-# todo_app
+# Books List App (MVVM Pattern)
 
-A new Flutter project.
+Cross platform app using flutter and dart featuring book titles with pictures fetched from mockup data provided via
 
-## Getting Started
+ https://raw.githubusercontent.com/bvaughn/infinite-list-reflow-examples/master/books.json
+ 
+ 
+# Run Locally
 
-This project is a starting point for a Flutter application.
+Clone the project
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+  git clone https://github.com/isnik09/ToDo-App.git
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Go to the project directory
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+  cd ToDo-App
+```
+
+Install dependencies
+
+```bash
+  flutter pub get
+```
+
+Start in emulator
+
+```bash
+  flutter run
+```
+ 
+ 
+ 
+ 
+## Get APK here
+https://github.com/isnik09/ToDo-App/raw/master/ToDo.apk
+
+## Screenshots
+
+![App](https://github.com/isnik09/ToDo-App/blob/master/SCREENSHOTS/to-do.png?raw=true)
