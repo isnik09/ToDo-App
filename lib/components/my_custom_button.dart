@@ -4,7 +4,7 @@ class CustomButton extends StatelessWidget {
   final String buttonName;
   VoidCallback onPressed;
   Color buttonColor;
-  Color? textColor = Colors.white;
+  Color? textColor = Color.fromARGB(255, 0, 0, 0);
   CustomButton(
       {super.key,
       required this.buttonName,
@@ -15,7 +15,8 @@ class CustomButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 100,
+      width: 120,
+      height: 60,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
           elevation: 0,

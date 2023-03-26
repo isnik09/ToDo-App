@@ -3,9 +3,10 @@ import 'package:hive/hive.dart';
 import 'package:todo_app/components/dialog_box.dart';
 import 'package:todo_app/components/todo_tile.dart';
 import 'package:todo_app/data/database.dart';
+import 'package:todo_app/utils/colors.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+  HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -70,12 +71,14 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors().background,
       floatingActionButton: FloatingActionButton(
         onPressed: createNewTask,
-        child: const Icon(Icons.add),
+        child: Icon(Icons.add),
       ),
       appBar: AppBar(
-        title: const Center(child: Text("Todo")),
+        backgroundColor: AppColors().background,
+        title: Center(child: Text("Todo")),
       ),
       body: ListView.builder(
         itemCount: db.todoList.length,
